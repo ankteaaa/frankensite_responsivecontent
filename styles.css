@@ -13,9 +13,34 @@ section#wideimage {
     font-size: 4vw;
     color:white;
     text-align:center;
+    margin-bottom:20px;
 }
 
 section h1{
     padding:100px;
+}
+
+/* Cards: */
+section h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100px;
+    font-size: 2vw;
+    margin-bottom:1vw;
+}
+
+section#fashioncards {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+section#fashioncards section{
+    width:30%;
+    box-sizing:border-box;
+    max-width: 300px;
+}
+
+section#fashioncards section img{
+    width:100%;
 }
 
