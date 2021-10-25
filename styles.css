@@ -1,0 +1,21 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+section#wideimage {
+    width: 100%;
+    background-image: url("images/footballers.jpg");
+    background-size:cover;
+    height: 400px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform:uppercase;
+    font-size: 4vw;
+    color:white;
+    text-align:center;
+}
+
+section h1{
+    padding:100px;
+}
+
