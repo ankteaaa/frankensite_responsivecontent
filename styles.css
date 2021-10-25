@@ -3,7 +3,7 @@
     padding:0;
 }
 
-section#wideimage {
+section.wideimage {
     width: 100%;
     background-image: url("images/footballers.jpg");
     background-size:cover;
@@ -16,7 +16,7 @@ section#wideimage {
     margin-bottom:20px;
 }
 
-section h1{
+section.wideimage h1{
     padding:100px;
 }
 
@@ -28,19 +28,20 @@ section h2{
     margin-bottom:1vw;
 }
 
-section#fashioncards {
+section.cards {
     width:100%;
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-around;
 }
 
-section#fashioncards section{
-    width:30%;
+section.cards section{
+    width:250px;
     box-sizing:border-box;
     max-width: 300px;
 }
 
-section#fashioncards section img{
+section.cards section img{
     width:100%;
 }
 
